@@ -285,8 +285,12 @@ Solution: Node.js Streams everywhere
 * [get-dat workshop](http://maxogden.github.io/get-dat/)
 * [get-dat bionode gasket example](https://github.com/maxogden/get-dat/blob/master/markdown/08-extra-credit.md)
 
-<pre>
 
+---
+
+**Difficulty writing scalable, reproducible and complex bioinformatic pipelines.**
+
+<pre>
 <span class="fragment"> { </span>
 <span class="fragment">   "import-data": [ </span>
 <span class="fragment">     "bionode-ncbi search genome eukaryota", </span>
@@ -338,6 +342,41 @@ pipeline import
 </pre>
 <span class="fragment"><p class="fragment">[example](https://github.com/datproject/datscript/blob/master/example.ds)</p>
 </span>
+
+---
+
+[Project status](https://github.com/bionode/bionode#project-status):
+
+** Databases **
+* [NCBI](https://github.com/bionode/bionode-ncbi)
+
+** Wrappers **
+* [SRAToolkit](https://github.com/bionode/bionode-sra)
+* [SAMTOOLS](https://github.com/bionode/bionode-sam)
+* [BWA](https://github.com/bionode/bionode-bwa)
+
+** Parsers **
+* [FASTA](https://github.com/bionode/bionode-fasta)
+* [bigWig and bigBed](https://github.com/bionode/bionode-bbi)
+
+
+---
+
+[Wishlist](https://github.com/bionode/bionode#project-status):
+
+** Databases **
+* EBI and ENSEMBL
+
+** Wrappers **
+* QSUB
+* BLAST and BLAT
+* Bowtie
+* KHMER
+
+** Parsers **
+* FASTQ
+* SAM/BAM
+* VCF/BCF
 
 ---
 
@@ -413,7 +452,7 @@ dat import --json
 
 --- -->
 
-<!-- ### Project status: available
+<!-- ### Project status: a
 
 * Data access:
   * ncbi
@@ -501,6 +540,8 @@ Acknowledgements:
 
 * [try.bionode.io](http://try.bionode.io)
 * [maxogden.github.io/get-dat/](http://maxogden.github.io/get-dat/)
+* [bionode-examples](https://github.com/bionode/bionode-examples)
+* [bionode-template](https://github.com/bionode/bionode-template)
 
 ---
 
